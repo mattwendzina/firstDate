@@ -13,15 +13,17 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           <iframe
-            src="https://giphy.com/embed/YllkijVcYywK6N5kd5"
+            src="https://giphy.com/embed/QYdqmkvjNyHs2Xov84"
             width="480"
             height="270"
             frameBorder="0"
             allowFullScreen
           ></iframe>
         </h1>
-        <Link href="/hairDo ">
-          <a className="text-3xl text-white my-4">Hey there...</a>
+        <Link href="/space">
+          <a className="text-3xl text-white my-4">
+            Hope this hair do isn&apos;t OTT..?!
+          </a>
         </Link>
       </main>
 

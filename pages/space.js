@@ -11,17 +11,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          <iframe
-            src="https://giphy.com/embed/YllkijVcYywK6N5kd5"
-            width="480"
-            height="270"
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
-        </h1>
-        <Link href="/hairDo ">
-          <a className="text-3xl text-white my-4">Hey there...</a>
+        <iframe
+          src="https://giphy.com/embed/5ezLwF73RgzQI"
+          width="480"
+          height="380"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+
+        <Link href="/competition ">
+          <a className="text-3xl text-white my-4">
+            Well anyways... let me clear some space
+          </a>
         </Link>
       </main>
 

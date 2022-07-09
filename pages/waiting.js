@@ -11,17 +11,23 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          <iframe
-            src="https://giphy.com/embed/YllkijVcYywK6N5kd5"
-            width="480"
-            height="270"
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
-        </h1>
-        <Link href="/hairDo ">
-          <a className="text-3xl text-white my-4">Hey there...</a>
+        <iframe
+          src="https://giphy.com/embed/kTEqpBl5W9X2w"
+          width="480"
+          height="357"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+
+        <h2 className="text-3xl text-white my-4">
+          Don&apos;t leave hanging. Coffee for one is less fun. WhatsApp to
+          RSVP!
+        </h2>
+
+        <Link href="/">
+          <a className="text-3xl text-amber-400 my-4 font-bold">
+            Watch again...?
+          </a>
         </Link>
       </main>
 
